@@ -12,7 +12,6 @@ public class AimController : MonoBehaviour
     private float rotationX = 0f;
 
     private bool isAiming = false;
-
     void Start()
     {
         _input = GetComponent<StarterAssetsInputs>();
